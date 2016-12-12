@@ -1,0 +1,16 @@
+/* Disable text selection */
+.scatter-chart svg *::selection {
+    background : transparent;
+}
+
+.scatter-chart svg *::-moz-selection {
+    background:transparent;
+}
+
+.scatter-chart svg *::-webkit-selection {
+    background:transparent;
+}
+
+.scatter-chart {
+	position: relative;
+}

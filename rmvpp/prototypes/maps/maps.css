@@ -1,0 +1,52 @@
+
+#rmvpp-maps-container   {
+    border:1px #000 solid;
+}
+
+rmvpp-maps path {
+  fill: none;
+  stroke: #FFF;
+  stroke-width: .05px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+}
+
+rmvpp-maps .background {
+  fill: none;
+  pointer-events: all;
+}
+
+rmvpp-maps .feature {
+  fill: #eee;
+  cursor: pointer;
+}
+
+rmvpp-maps .feature.active {
+  fill: orange;
+}
+
+rmvpp-maps .mesh {
+  fill: none;
+  stroke: #000;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.map-la-d3-tip
+{
+	background: rgba(0,0,0,.8);
+	border-radius: 3px;
+	color: #fff;
+	font-family: "Arial",sans-serif;
+	font-size: 8px;
+	padding: 6px;
+	pointer-events: none;
+	text-align: center;
+}
+
+
+.map-la-d3-tip p 
+{
+	font-size: 9px;
+        /*margin-bottom: 4px;*/
+}

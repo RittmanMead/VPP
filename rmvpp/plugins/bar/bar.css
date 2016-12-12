@@ -1,0 +1,43 @@
+.bar-chart {
+	position: relative;
+}
+
+.bar-chart text {
+	fill: #333;
+	font: 10px sans-serif;
+	text-anchor: end;
+}
+
+.bar-chart text.title {
+	font: 10px sans-serif;
+	font-weight: bold;
+	text-anchor: end;
+}
+
+.bar-chart .axis path, .axis line {
+	fill: none;
+	stroke: #666;
+	shape-rendering: crispEdges;
+}
+
+.bar-chart .axis .label {
+	font-family: Lato, Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.bar-chart .tooltip {
+	position: absolute;
+	font-family: Lato, Arial;
+	font-size: 11px;
+	background: white;
+	padding: 5px;
+	border: 1px solid #666;
+	border-radius: 8px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	z-index: 10;
+	text-align: left;
+	pointer-events: none;
+}

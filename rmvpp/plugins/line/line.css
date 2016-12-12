@@ -1,0 +1,57 @@
+.line-chart {
+	position: relative;
+}
+
+.line-chart .axis path, .axis line {
+	fill: none;
+	stroke: #666;
+	shape-rendering: crispEdges;
+}
+
+.line-chart text {
+	fill: #333;
+	font: 10px sans-serif;
+	text-anchor: end;
+}
+
+.line-chart text.title {
+	font: 10px sans-serif;
+	font-weight: bold;
+	text-anchor: end;
+}
+
+.line-chart .axis .label {
+	font-family: Lato, Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.line-chart .tooltip {
+	position: absolute;
+	font-family: Lato, Arial;
+	font-size: 11px;
+	background: white;
+	padding: 5px;
+	border: 1px solid #CCC;
+	border-radius: 8px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	z-index: 10;
+	text-align: left;
+	pointer-events: none;
+}
+
+.line-chart .tooltip ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+.line-chart .tooltip .legend {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin-top: 2px;
+	margin-right: 3px;
+}

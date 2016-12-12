@@ -1,0 +1,83 @@
+/* Text styles */
+.chartTitle {
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+text {
+	fill: #333;
+	font: 10px sans-serif;
+}
+
+/* Axes styles */
+.axis .label {
+	font-family: 'Open Sans', Arial;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+.axis path, .axis line {
+	fill: none;
+	stroke: #666;
+	shape-rendering: crispEdges;
+}
+
+/* Tooltip styles */
+.tooltip {
+	position: absolute;
+	font-family: 'Open Sans', Arial;
+	font-size: 11px;
+	background: white;
+	padding: 5px;
+	border: 1px solid #CCC;
+	border-radius: 8px;
+	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+	z-index: 10;
+	text-align: left;
+	white-space: nowrap;
+	pointer-events: none;
+}
+
+.tooltip ul {
+	padding: 0px;
+	margin: 0px;
+	list-style-type: none;
+}
+
+.tooltip .legend {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	margin-top: 2px;
+	margin-right: 3px;
+}
+
+/* Legend styles */
+.legend text.title {
+	font-weight: bold;
+	text-anchor: end;
+}
+
+/* Drag selection styles */
+.selectionBox {
+	fill: #CCC;
+	opacity: 0.5;
+	stroke: #666;
+	stroke-weight: 1px;
+	shape-rendering: crispEdges;
+}
+
+/* Navigator styles */
+.navigator .bar{
+    fill: lightgrey;
+	stroke: grey;
+}
+
+.navigator .viewport {
+    stroke: grey;
+    fill: black;
+    fill-opacity: 0.2;
+}

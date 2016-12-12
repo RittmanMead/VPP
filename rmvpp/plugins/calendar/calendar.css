@@ -1,0 +1,27 @@
+body {
+  font: 10px sans-serif;
+  shape-rendering: crispEdges;
+}
+
+.calendar .day {
+  fill: #fff;
+  stroke: #ccc;
+}
+
+.calendar .month {
+  fill: none;
+  stroke: #000;
+  stroke-width: 2px;
+}
+
+.calendar .RdYlGn .q0-11{fill:rgb(165,0,38)}
+.calendar .RdYlGn .q1-11{fill:rgb(215,48,39)}
+.calendar .RdYlGn .q2-11{fill:rgb(244,109,67)}
+.calendar .RdYlGn .q3-11{fill:rgb(253,174,97)}
+.calendar .RdYlGn .q4-11{fill:rgb(254,224,139)}
+.calendar .RdYlGn .q5-11{fill:rgb(255,255,191)}
+.calendar .RdYlGn .q6-11{fill:rgb(217,239,139)}
+.calendar .RdYlGn .q7-11{fill:rgb(166,217,106)}
+.calendar .RdYlGn .q8-11{fill:rgb(102,189,99)}
+.calendar .RdYlGn .q9-11{fill:rgb(26,152,80)}
+.calendar .RdYlGn .q10-11{fill:rgb(0,104,55)}

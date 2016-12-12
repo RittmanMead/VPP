@@ -1,0 +1,86 @@
+#narrativeForm, #narrativeForm textarea{
+    font-family: Consolas, "Liberation Mono", Courier, monospace;
+}
+#pluginPackHeader  {
+  margin-bottom: 30px;
+}
+
+a {
+    color: #06A1F2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00679D; 
+}
+
+#parameterform   {
+    background-color: #FEFEFE;
+    margin-top:20px;
+	margin-bottom: 10px;
+    padding: 20px;
+    padding-left: 20px;
+    border: 1px solid #777;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    overflow: auto;
+}
+
+#pluginPackHeader input, #pluginPackHeader select, #narrativeForm textarea {
+  border-radius: 5px;
+  border: 1px solid #CCC;
+  padding: 4px;
+}
+
+/* Angles Control */
+
+#parameterform .angles span {
+	margin: 2px;
+}
+
+.parameterform .angles line { stroke: #FFF; }
+#parameterform .angles line, .angles path, .angles circle { stroke: #FFF; }
+#parameterform .angles text { fill: #333; }
+#parameterform .angles path.drag { fill: #666; cursor: move; }
+#parameterform .angles { text-align: center; margin: 0 auto; width: 350px; }
+#parameterform .angles.wheel { margin-top: 10px; };
+#pluginselect   {
+    margin-left: 5px;
+}
+
+#submitdiv  {
+    clear: both;
+}
+#submitform   {
+    width: 6em;  height: 2.5em;
+    margin-top:20px;
+}
+
+#columnMapParams {
+    float:left;
+    margin-right: 40px;
+}
+
+#configParams {
+    float:left;
+	max-height: 400px;
+}
+
+.colheader  {
+    font-size:24px;
+	font-weight:bold;
+    padding-bottom: 10px;
+}
+
+input.colourpicker {
+	border: 1px solid;
+	width:70px;
+	height:20px;
+	border-right:20px solid;
+	line-height:20px;
+}
+
+option{
+    padding:1px;
+}

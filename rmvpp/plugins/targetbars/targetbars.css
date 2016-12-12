@@ -1,0 +1,5 @@
+.axis line{
+    fill: none;
+    stroke: #999999;
+    shape-rendering: crispEdges;
+}

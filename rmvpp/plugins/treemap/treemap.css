@@ -1,0 +1,17 @@
+/*
+
+<pluginName> .class {
+    font-size:9px;
+} 
+
+*/
+
+ .treeMapNode {
+    border: solid 1px white;
+    border-radius: 5px;
+    font: 10px sans-serif;
+    line-height: 12px;
+    overflow: hidden;
+    position: absolute;
+    text-indent: 2px;
+  }
