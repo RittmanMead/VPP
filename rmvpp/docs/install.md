@@ -18,7 +18,7 @@ This installation is to be run on the OBIEE server. It assumes that it is not a 
 
 As the system owner you need the following:
 
-1. The **RMVPP installation files**, which you should have been provided already. Available from the [Git repository](https://github.com/RittmanMead/Visual-Plugin-Pack-for-OBIEE).
+1. The **RMVPP installation files**, which you should have been provided already. Available from the [Git repository](https://github.com/RittmanMead/VPP).
 2. Access to the Weblogic Console, e.g. `http://server:7001/console`.
 3. Access to he home folder of your OBIEE installation (**FMW_HOME**)
 4. Access to the folder in which you will store the RMVPP installation. This should be **outside of your OBIEE installation folder** so as to not interfere with upgrades and patching.
@@ -53,10 +53,13 @@ If the script does not work, or you are using Windows for the OBIEE server, a ma
 
 **11.1.1.9**
 
+**NOTE**: The subdirectory under `analytics` will have a randomly generated name, so you will need to find it manually.
 * `$FMW_HOME/instances/instance1/tmp/OracleBIPresentationServicesComponent/coreapplication_obips1/earmanager/analytics/8mr0HxRkelhRp5pEz2uDoQ/res/b_mozilla/`
-* The subdirectory under `analytics` will have a randomly generated name, so you will need to find it manually.
+
 
 **12c**
+
+**NOTE**: The subdirectory under `analytics` will have a randomly generated name, so you will need to find it manually.
 
 * `$FMW_HOME/user_projects/domains/bi/servers/bi_server1/tmp/_WL_user/analytics/eiguw6/war/res/b_mozilla/common.js`
 * `$FMW_HOME/user_projects/domains/bi/servers/bi_server1/tmp/_WL_user/analytics/za01ic/war/res/b_mozilla/common.js`
