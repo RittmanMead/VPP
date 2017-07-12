@@ -12,7 +12,8 @@ d3.bullet = function() {
       measures = bulletMeasures,
       width = 960,
       height = 30,
-      tickFormat = null;
+      tickFormat = null,
+      config = null;
 
   // For each small multiple…
   function bullet(g) {
@@ -21,7 +22,7 @@ d3.bullet = function() {
           markerz = markers.call(this, d, i).slice().sort(d3.descending),
           measurez = measures.call(this, d, i).slice().sort(d3.descending),
           g = d3.select(this);
-          
+
 
       // Compute the new x-scale.
       var x1 = d3.scale.linear()
@@ -46,6 +47,7 @@ d3.bullet = function() {
 
       range.enter().append("rect")
           .attr("class", function(d, i) { return "range s" + i; })
+          .attr("fill", function(d, i) { return config["colour" + i]; })
           .attr("width", w0)
           .attr("height", height)
           .attr("x", reverse ? x0 : 0)
@@ -66,6 +68,7 @@ d3.bullet = function() {
 
       measure.enter().append("rect")
           .attr("class", function(d, i) { return "measure s" + i; })
+          .attr("fill", config.colour3)
           .attr("width", w0)
           .attr("height", height / 3)
           .attr("x", reverse ? x0 : 0)
@@ -88,6 +91,7 @@ d3.bullet = function() {
 
       marker.enter().append("line")
           .attr("class", "marker")
+          .attr("stroke", config.colour4)
           .attr("x1", x0)
           .attr("x2", x0)
           .attr("y1", height / 6)
@@ -208,6 +212,12 @@ d3.bullet = function() {
   bullet.duration = function(x) {
     if (!arguments.length) return duration;
     duration = x;
+    return bullet;
+  };
+
+  bullet.config = function(x) {
+    if (!arguments.length) return config;
+    config = x;
     return bullet;
   };
 
