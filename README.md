@@ -17,8 +17,8 @@ The framework takes advantage of the OBIEE Narrative view while abstracting away
 
 ### Documentation
 
-* [Installation Guide](https://github.com/RittmanMead/VPP/wiki/Installation Guide)
-* [Developer's Guide](https://github.com/RittmanMead/VPP/wiki/Developer's Guide)
+* [Installation Guide](https://github.com/RittmanMead/VPP/wiki/Installation%20Guide)
+* [Developer's Guide](https://github.com/RittmanMead/VPP/wiki/Developer's%20Guide)
 
 ### OBIEE Support
 
